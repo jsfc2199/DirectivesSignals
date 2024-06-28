@@ -23,6 +23,4 @@ export class ProductPageComponent {
 
     this.color = color
   }
-
-  //TODO crear directiva personalizada para mostrar los errores sin tener que hacer tanta 'carpintería'
 }
