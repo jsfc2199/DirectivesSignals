@@ -1,12 +1,12 @@
 <h1>Agregar Producto</h1>
 <hr />
-<form>
+<form [formGroup]="myForm">
   <div class="row g-3 align-items-center mb-3">
     <div class="col-auto">
       <Label>Nombre: </Label>
     </div>
     <div class="col-auto">
-      <input type="text" class="form-control" />
+      <input type="text" class="form-control" formControlName = "name"/>
     </div>
     <div class="col-auto">
       <!-- el objetivo es hacer una directiva que modifique lo que está en el span sin tener que agregar una condición -->
@@ -16,7 +16,12 @@
 
   <div class="row">
     <div class="col">
-      <button class="btn btn-primary">Cambiar color</button>
+      <button class="btn btn-primary" (click)="changeColor()">Cambiar color</button>
     </div>
   </div>
 </form>
+
+<pre>
+  {{myForm.get('name')?.errors | json}}
+</pre>
+<p> Color: {{color}}</p>
