@@ -1,27 +1,30 @@
-# DirectivesSignals
+# Directivas Personalizadas en Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4.
+## ¿Qué veremos en esta sección?
 
-## Development server
+En esta sección, aprenderemos a crear nuestras propias directivas personalizadas en Angular para expandir su comportamiento.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+La idea es crear una directiva robusta que nos sirva para resumir la forma en que se muestran los errores en los formularios, evitando la necesidad de colocar múltiples condiciones dentro del HTML.
 
-## Code scaffolding
+Esta directiva que crearemos es de uso práctico y proporcionará una buena idea de lo que podemos hacer con las directivas en Angular.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Utilización de Señales en Angular
 
-## Build
+## ¿Qué veremos en esta sección?
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+En esta sección, comenzaremos a utilizar las señales en Angular.
 
-## Running unit tests
+Forma de llegar a una variable y actualizarla (Conexión de una variable y cambiarla en todos los lugares que se use, incluyendo HTML y TS).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Tienen limpieza automática, cuando se deja de usar el componente, se destruye la señal y efecto.
 
-## Running end-to-end tests
+**Requerimiento mínimo: Angular 16+**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Puntualmente veremos:
 
-## Further help
+- Utilización
+- Modificación
+- Mutación
+- Actualización
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Esta es una breve introducción, ya que en las siguientes secciones las utilizaremos de manera más profunda para trabajar en nuestro MEAN Stack con Señales.
